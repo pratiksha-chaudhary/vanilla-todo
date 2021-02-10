@@ -3,40 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TodoList</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
-      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
+    <title>Todo List</title>
   </head>
   <body>
     <header>
-      <h1>Ed's Todo List</h1>
+      <h1>Pratiksha's Todo app</h1>
     </header>
+
     <form>
       <input type="text" class="todo-input" />
       <button class="todo-button" type="submit">
         <i class="fas fa-plus-square"></i>
+        <!-- sbsmdnbmsd -->
       </button>
       <div class="select">
-        <select name="todos" class="filter-todo">
-          <option value="all">All</option>
-          <option value="completed">Completed</option>
-          <option value="uncompleted">Uncompleted</option>
-        </select>
+          <select name="todos" class="filter-todo">
+              <option value ="all">All</option>
+              <option value ="completed">Completed</option>
+              <option value ="uncompleted">Uncompleted</option>
+          </select>
       </div>
     </form>
     <div class="todo-container">
-      <ul class="todo-list"></ul>
+      <ul class="todo-list">
+      </ul>
     </div>
 
+  
+    </div>
     <script src="./app.js"></script>
   </body>
 </html>
